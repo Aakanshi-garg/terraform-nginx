@@ -1,4 +1,3 @@
-
 # Deploy nginx web server using terraform
 
 This project uses Terraform to deploy a simple web server Nginx on an AWS EC2 instance. It automatically installs the web server using a user data script and exposes it via a public IP on port 80. Ideal for beginners learning cloud infrastructure automation.
@@ -71,7 +70,6 @@ Follow these steps to initialize Terraform, review the execution plan, and launc
 Open a terminal and run:
 ```
 ssh-keygen
-
 ```
 This creates two files:
 
